@@ -764,7 +764,7 @@ h2{
       position: relative;
 }
   .nav-slide.open ul li {
-  width:15.0vw;
+  width:20.0vw;
   visibility: visible;
     opacity: 1;
     pointer-events: auto;
