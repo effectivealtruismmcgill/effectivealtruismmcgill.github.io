@@ -4,6 +4,9 @@
 @keyframes come-in {
   to { transform: translateY(0); }
 }
+.sideimagepic{
+  overflow:hidden;
+}
 .textadjust{
   color:#212121;font-size:2vh;text-align: justify;font-weight: normal;
 }
