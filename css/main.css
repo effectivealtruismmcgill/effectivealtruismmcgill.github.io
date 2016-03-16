@@ -436,13 +436,13 @@ h2{
 {
     background-color:   #cccccc;
     cursor:pointer;
-    font-size:10vmin;
+    font-size:6vw;
 }
 .nav-slide ul li.active{
   font-size: 4vw;
 }
   .nav-slide.open ul li {
-  width:55vw;
+  width:75vw;
   visibility: visible;
     opacity: 1;
     pointer-events: auto;
