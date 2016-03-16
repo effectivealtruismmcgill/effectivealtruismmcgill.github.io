@@ -410,7 +410,7 @@ h2{
     overflow:auto;
 }
 .sideimage{
-    overflow:hidden;
+    overflow:auto;
       width:80vw;
       line-height: 55vw;
       height:55vw;
@@ -420,7 +420,7 @@ h2{
       position: relative;
 }
 .sideimage {
-    overflow:hidden;
+    overflow:auto;
       width:80vw;
       line-height: 55vw;
       height:55vw;
@@ -755,7 +755,7 @@ h2{
 }
 .sideimage{
   line-height: 25vw;
-    overflow:hidden;
+    overflow:auto;
       width:35vw;
       height:25vw;
       top: 50%;
