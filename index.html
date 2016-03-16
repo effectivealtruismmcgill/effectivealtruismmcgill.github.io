@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+<head>
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/main.css">
+<body>
+  <div class="loader"></div>
+	<div id="site-wrapper" class="nav-slide">
+          <div id="toggle"class="nav-icon">
+              <div id="fist"></div>
+              <div id="second"></div>
+              <div id="third"></div>
+          </div>
+          <div id="upscroll">
+              <div id="arrowup"></div>
+          </div>
+          <div id="toggledown"class="nav-down">
+              <div id="fist"></div>
+              <div id="second"></div>
+              <div id="third"></div>
+          </div>   
+          <div id="progressionbar">
+            <div id="tooltipholder" >
+                <li class="correspbar" offset="#slide-1" id="cor1">Do Good Better</li>
+                <li class="correspbar" offset="#slide-2" id="cor2">Be Informed</li>
+                <li class="correspbar" offset="#slide-3" id="cor3">Help Effectively</li>
+                <li class="correspbar" offset="#slide-4" id="cor4">Choosing Charity</li>
+                <li class="correspbar" offset="#slide-5" id="cor5">Contact</li>
+            </div>
+            <div id="progression-holder" style="display:inline-block;">
+                <div class="longbar" offset="#slide-1" cor="#cor1"></div>
+                <div class="longbar" offset="#slide-2" cor="#cor2"></div>
+                <div class="longbar" offset="#slide-3" cor="#cor3"></div>
+                <div class="longbar" offset="#slide-4" cor="#cor4"></div>
+                <div class="longbar" offset="#slide-5" cor="#cor5"></div>
+            </div>
+          </div>  
+          <ul id="leftsidebar">
+            <li offset="#slide-1">Do Good Better</li>
+            <li offset="#slide-2">Be Informed</li>
+            <li offset="#slide-3">Help Effectively</li>
+            <li offset="#slide-4">Choosing Charity</li>
+            <li offset="#slide-5">Contact</li>
+          </ul>
+	</div>
+
+    <section id="slide-1" class="homeSlide">
+        <div class="bcg">
+            <div class="toppart" style="background:rgba(28,28,28,0.5);">
+              <h1>Do good better</h1>
+              <hr style="width: 10em;
+    clear: both;
+    display: block;
+    border: none;
+    border-top: 6px solid white;
+    margin: 0 auto 2em; text-transform: uppercase;">
+              <div id="textcontainer">
+                 <h2>By learning how to help others most effectively, you can transform your compassion into the best possible actions. Effective altruism equips the heart with the tools of the head.</h2>
+              </div>
+            </div>
+            <div class="bottompart" style="background:rgba(28,28,28,0.5);">
+              <div id="secondimage" class="sideimage">
+                  <img id="simg"style="width:100%;vertical-align:middle;"src="groupphoto.jpg" alt="" />
+              </div>
+            </div>
+            
+        </div>
+    </section>
+
+       <section id="slide-2" class="homeSlide">
+        <div class="bcg">
+            <div class="animation-element toppart come-in-up">
+              <h1>Knowing how to help</h1>
+              <hr style="width: 10em;
+    clear: both;
+    display: block;
+    border: none;
+    border-top: 3px solid white;
+    margin: 0 auto 2em;text-transform: uppercase;">
+              <div id="textcontainer">
+                 <h2>Well-meaning efforts sometimes hurt the people they are intended to help. Often, they achieve nothing. But sometimes they save lives, relieve pain and suffering, and bring happiness to people in desperate situations.</h2>
+              </div>
+            </div>
+            <div class="animation-element bottompart come-in-up">
+              <div id="secondimage" class="sideimage">
+                  <img id="simg"style="height:100%;vertical-align:middle;"src="helpinghand.jpg" alt="" />
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="slide-3" class="homeSlide">
+        <div class="bcg">
+          <div class="animation-element sidepartleft come-in-left" style="">
+              <div class="sideimage">
+                  <img id="simg"style="height:100%;width:100%;vertical-align:middle;"src="side1.jpg" alt="" />
+              </div>
+          </div>
+
+          <div class="separatoriphone" style=""></div>   
+
+          <hr class="middleseparator">
+
+          <div class="animation-element sidepartright come-in-left">
+              <div class="sideimage" id="text1">
+                  <h2 class="textadjust" >The world's poorest people have the world's greatest need<br>
+<p>
+Knowing how to help means knowing who to help. Helping the people who are the worst off means making the biggest difference. You can do that by donating to a charity that serves the world's poorest people.<br><br>
+
+
+Not all charities are equally good at what they do<br><br>
+
+If a company consistently fails to produce a good product, sooner or later customers will stop buying it. But if a charity consistently fails to achieve its goals, donors typically have no way of knowing.</h2>
+              </div>
+          </div>
+           <div class="separatoriphone"></div>  
+    </section>
+    <section id="slide-4" class="homeSlide">
+        <div class="bcg">
+
+          <div class="animation-element sidepartright come-in-left" style="">
+            <div class="sideimage" >
+                 <img id="simg"style="height:100%;width:100%"src="side2.jpg" alt="" />
+              </div>
+
+          </div>
+          <div class="separatoriphone"></div> 
+           <hr class="middleseparator">
+          <div class="animation-element sidepartleft come-in-left">
+              <div class="sideimage" id="text2">
+                   <h2 class="textadjust" >If you want to help, find the charities that are doing the best work<br><br>
+Expert charity evaluators like GiveWell have the sole mission of finding the world's most effective charities. GiveWell's extensive research can help you decide where to donate.<br><br/ >You can save a life by choosing the right charity<br><br>
+
+If you're involved in a fundraiser, your choice of charity can save someone's life. A $3900 donation to the Against Malaria Foundation is enough to prevent one person from dying from malaria.</h2>
+              </div>
+            
+          </div>
+    </section>
+    <section id="slide-5" class="homeSlide">
+        <div class="animation-element bcg come-in-up">
+
+            <div id="contactrow">
+                <h1 style="">We're here to help</h1>
+                  <hr >
+            </div>
+
+            <div id="formrow">
+                <div id="mailrow">
+                  <div id="formcontainer">
+                      <form action="form/contact.php" method="post" id="mailform">
+                          <input type="text" placeholder="Your name" name="name" required="" class="input">
+                          <input type="email" placeholder="Your email" name="email" required="" class="input">
+                          <textarea placeholder="Your message" name="message" required="" class="textarea"></textarea>
+                          <div id="submitandtext">
+                            <input type="submit" value="Submit" id="submitbutton" class="input" >
+                            <label style="float:left;color:white;">All fields required</label>
+                          </div>
+                      </form>
+                    </div>
+                </div>
+
+
+
+
+                <div id="addressrow">
+                  <div id="addresstextholder">
+                      <div id="address1stcol">
+                          <p style="text-align: justify;">Effective Altruists at McGill exists to help you make that choice<br style="line-height: 200%;">
+Our mission is to offer you guidance in your attempt to help others <br style="line-height: 200%;">
+Get in touch. We'd love to hear from you.<br style="line-height: 200%;">
+</p>
+                      </div>
+                
+                  </div>
+                </div>
+
+            </div>
+            <div id="iconrow">
+              <div id="topicon">
+                  <div id="iconfollowus">
+                      <ul>
+                          <li><a class="fa fa-facebook" ></a></li>
+                          <li> <a class="fa fa-twitter" ></a></li>
+                          <li> <a class="fa fa-github" ></a></li>
+                          <li> <a class="fa fa-linkedin" ></a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div id="bottomicon">
+                    <a id="mapicon" ><i style="position: relative;top: 50%;transform: translatey( -50%);" class="fa fa-map-marker"></i></a>
+              </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="map" class="homeSlide">
+        <div class="bcg">
+          <iframe style="width:100%;height:100%;display: block;" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJNZYPUUYayUwRdK6kAJLa5N0&key=AIzaSyDTHrZHuh4oFRqR9lMw_Nv2r25hGrbJn04" allowfullscreen></iframe>
+        </div>
+    </section>
+</body>
+</html>
