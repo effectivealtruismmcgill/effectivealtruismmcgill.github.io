@@ -66,8 +66,8 @@ section{
 #slide-1 .bcg {background-image:url('../plannet.jpg')}
 
 #toggle{
-	padding-left:10px;
-	padding-top:10px;
+  padding-left:10px;
+  padding-top:10px;
 }
 .rotated {
   transform: rotate(90deg);
@@ -148,12 +148,12 @@ height: 5000px; /* Temp: Simulates a tall page. */
     left: 0;
 }
 .nav-slide ul li {
-	color:white;
-	font-size:2.0vmin;
-	padding-left:10px;
-	text-align: left;
-	text-transform: uppercase;
-	letter-spacing: 2px;
+  color:white;
+  font-size:2.0vmin;
+  padding-left:10px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 2px;
     width: 100%;
     height: 8.0vh;
     line-height: 8.0vh;
@@ -430,7 +430,7 @@ h2{
       position: relative;
 }
 .nav-slide ul li{
-  font-size: 8vmin;
+  font-size: 4vw;
 }
 .nav-slide.open ul li:hover
 {
@@ -439,7 +439,7 @@ h2{
     font-size:10vmin;
 }
 .nav-slide ul li.active{
-  font-size: 10vmin;
+  font-size: 4vw;
 }
   .nav-slide.open ul li {
   width:55vw;
